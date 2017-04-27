@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroud_1">
+
+
+    <RadioGroup
+        android:padding="5dp"
+        android:background="@color/white_black"
+        android:id="@+id/rg_recbase"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/rb_joinmost"
+            android:textSize="20sp"
+            android:layout_width="0dp"
+            android:button="@null"
+            android:textColor="@color/black_white"
+            android:gravity="center_horizontal"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="参与最多"/>
+        <View
+            android:background="@color/black_white"
+            android:layout_width="1dp"
+            android:layout_height="match_parent">
+
+        </View>
+        <RadioButton
+            android:textColor="@color/black_white"
+            android:id="@+id/rb_video"
+            android:gravity="center_horizontal"
+            android:textSize="20sp"
+            android:button="@null"
+            android:text="视频"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+        <View
+            android:background="@color/black_white"
+            android:layout_width="1dp"
+            android:layout_height="match_parent">
+
+        </View>
+        <RadioButton
+            android:textColor="@color/black_white"
+            android:id="@+id/rb_team"
+            android:gravity="center_horizontal"
+            android:textSize="20sp"
+            android:button="@null"
+            android:text="团队"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+    </RadioGroup>
+
+    <FrameLayout
+        android:background="@color/backgroud_1"
+        android:id="@+id/fl_recbase"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </FrameLayout>
+
+</LinearLayout>

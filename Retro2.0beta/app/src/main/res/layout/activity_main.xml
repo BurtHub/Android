@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/backgroud_1"
+    tools:context="cn.huida.burt.retro.activity.MainActivity">
+
+    <FrameLayout
+        android:id="@+id/home_frag_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent"></FrameLayout>
+
+    <!--<这里是悬浮按钮>-->
+    <com.nightonke.boommenu.BoomMenuButton
+
+        android:id="@+id/boom_menu_button"
+        app:bmb_boomInWholeScreen="false"
+        app:bmb_buttonEnum="textOutsideCircle"
+        app:bmb_buttonPlaceEnum="buttonPlace_sc_5_1"
+        app:bmb_piecePlaceEnum="piecePlace_dot_5_1"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginBottom="45dp"
+        />
+
+
+
+</FrameLayout>

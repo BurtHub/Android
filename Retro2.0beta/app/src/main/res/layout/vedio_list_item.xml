@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/ll_idea_list_head"
+        android:padding="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/iv_idea_list_head"
+            android:layout_width="34sp"
+            android:layout_height="34sp"
+            android:background="@mipmap/head"/>
+        <TextView
+            android:id="@+id/tv_idea_list_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="瑞图团队"
+            android:layout_marginLeft="5dp"
+            />
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="想要梦想，你就来挑战吧！"
+        android:layout_marginLeft="15dp"
+        android:padding="10dp"/>
+
+
+    <LinearLayout
+        android:id="@+id/ll_idea_list_theme"
+        android:layout_width="match_parent"
+        android:layout_height="250sp"
+        android:layout_gravity="center_horizontal"
+        android:background="#000"
+        android:orientation="horizontal"
+        android:padding="5dp" />
+
+    <LinearLayout
+        android:padding="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="投资人数：200"/>
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="点赞数：200"/>
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="获取资金：200"/>
+    </LinearLayout>
+
+</LinearLayout>
